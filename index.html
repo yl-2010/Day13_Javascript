@@ -13,10 +13,32 @@
     <h1 style="color: red;"><a href="https://www.youtube.com" target="_blank" 
     onclick="alert('Warning! You are navigating away from the webpage')">Youtube</a></h1>
 
+    <div style="background-color: rgb(108, 131, 123); height: 2px;"></div>
+
     <h2>How do we display and hide things text?</h2>
     <h2>What's my seceret identity?</h2>
-    <p id="seceret"></p>
+    <p style="background-color: aqua;" id="seceret"></p>
     <button onclick="document.getElementById('seceret').innerHTML='Yan Levin';
     document.getElementById('seceret').style.display='block'">Reveal!</button>
+
+
+    <button onclick="document.getElementById('seceret').innerHTML=''">Hide</button>
+    <button onclick="document.getElementById('seceret').style.display='none'">Hide Again</button>
+
+
+    <h2>How do we change an image with JS?</h2>
+    <img src="images/yellow_light.jpg" id="myImage" style="height: 200px; width: 200px;">
+    <p>Light Bulb:</p>
+    <button onclick="document.getElementById('myImage').src='images/light.jpg'">Turn Light Off</button>
+    <button onclick="document.getElementById('myImage').src='images/yellow_light.jpg'">Turn Light On</button>
+
+    <h2>How do we change styles with a button?</h2>
+    <p id="alice">Hi. I am Alice</p>
+
+    <button onclick="document.getElementById('alice').style.color='blue';
+    document.getElementById('alice').style.fontSize='5px'">Cake</button>
+
+    <button onclick="document.getElementById('alice').style.fontSize='50px';
+    document.getElementById('alice').style.color='red'">Potion</button>
 </body>
 </html>

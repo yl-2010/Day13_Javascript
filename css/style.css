@@ -4,3 +4,7 @@ h1 {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+h2 {
+    color: rgb(87, 0, 128);
+}
