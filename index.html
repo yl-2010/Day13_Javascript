@@ -50,5 +50,18 @@
     <button style="justify-self: left; display: block;" onclick="document.getElementById('text').style.justifySelf='left'">Jump here, to the left!</button>
     <button style="justify-self: center; display: block;" onclick="document.getElementById('text').style.justifySelf='center'">Jump here, to the center!</button>
     <button style="justify-self: right; display: block;" onclick="document.getElementById('text').style.justifySelf='right'">Jump here, to the right!</button>
+
+
+    <h2>Independent Challenge 2: Self Changing Button:</h2>
+
+    <button id="selfbutton" style="border-radius: 0px; justify-self: center; width: 30%; height: 50px; display: block;" 
+    onclick="document.getElementById('selfbutton').style.borderRadius = parseInt(document.getElementById('selfbutton').style.borderRadius) + 5 + 'px'">
+    Click me many times!</button>
+    <p>⠀</p>
+    <button id="reset" style="border-radius: 0px; justify-self: center; width: 30%; height: 50px; display: block;" 
+    onclick="document.getElementById('selfbutton').style.borderRadius= '0px'">
+    Reset</button>
+
+    <h1>Page by Yan Levin</h1>
 </body>
 </html>
